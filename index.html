@@ -1,24 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Primeira Página</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5f4ef">
+  <meta name="description" content="Marco Vianna — UX Designer e Product Builder no Rio de Janeiro. Design, tecnologia e inteligência artificial para transformar ideias em experiências digitais.">
+  <title>Marco Vianna — UX Designer & Product Builder</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23234936'/%3E%3Ctext x='10' y='44' font-family='Arial' font-size='36' fill='%23f5f4ef'%3Em.%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>Olá, mundo!</h1>
-
-    <p>Esta é minha primeira página HTML.</p>
-
-    <h2>Meu ambiente de programação</h2>
-
-    <p>Estou aprendendo HTML, CSS e JavaScript no Linux Mint.</p>
-
-    <button onclick="mostrarMensagem()">Clique aqui</button>
-   
-    <p>Meu primeiro site publicado com GitHub Pages!</p>
-
-    <script src="script.js"></script>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="header wrap">
+    <a class="wordmark" href="#inicio" aria-label="Marco Vianna, início">marco vianna<span>®</span></a>
+    <button class="menu-toggle" aria-controls="navigation" aria-expanded="false">Menu <span aria-hidden="true">+</span></button>
+    <nav id="navigation" aria-label="Navegação principal">
+      <a href="#projetos">Projetos</a><a href="#atuacao">Atuação</a><a href="#sobre">Sobre</a><a href="#trajetoria">Trajetória</a><a class="nav-contact" href="#contato">Vamos conversar <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="conteudo">
+    <section class="hero wrap" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-meta"><span><i></i> UX DESIGNER & PRODUCT BUILDER</span><span>RIO DE JANEIRO, BRASIL · UTC−3</span></div>
+      <h1 id="hero-title">Entre ideias<br>e <em>possibilidades.</em></h1>
+      <div class="hero-bottom"><p>Conecto design, tecnologia e pessoas para transformar problemas complexos em experiências digitais que fazem sentido.</p><a class="round-link" href="#atuacao" aria-label="Explore minha atuação"><span aria-hidden="true">↓</span></a></div>
+      <div class="hero-art" aria-label="Composição abstrata representando a interseção entre design, tecnologia e pessoas" role="img"><div class="art-grid"></div><span class="art-label">EXPLORAR. CONECTAR. CONSTRUIR.</span><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div><span class="art-center">Ideias ganham forma.</span><span class="art-footer">DESIGN × TECNOLOGIA × IA</span><span class="art-index">MV — 01</span></div>
+    </section>
+    <section class="section wrap projects" id="projetos" aria-labelledby="projects-title">
+      <div class="section-heading"><p class="eyebrow">PROJETOS & RESULTADOS</p><div><h2 id="projects-title">O processo por trás.<br>O impacto <em>adiante.</em></h2><p class="section-intro">Em breve, uma seleção de projetos: do contexto e das escolhas de design aos aprendizados e resultados.</p></div></div>
+      <div class="projects-grid">
+        <!-- PROJETO 01: substitua a capa, o título, o resumo e os campos do estudo de caso quando o conteúdo estiver disponível. -->
+        <article class="project-card">
+          <div class="project-cover cover-product" aria-hidden="true"><span class="cover-number">01</span><div class="cover-composition"><span></span><span></span><span></span></div><span class="cover-caption">ESPAÇO PARA A CAPA DO PROJETO</span></div>
+          <div class="project-meta"><span>UX / PRODUTO DIGITAL</span><span class="project-status">Em preparação</span></div>
+          <h3>Experiência de produto</h3><p class="project-description">Um espaço para apresentar um desafio de UX, as decisões de design e a evolução da experiência.</p>
+          <details class="project-case"><summary>Conheça a estrutura do case <span aria-hidden="true">+</span></summary>
+            <div class="case-content"><p class="case-note">Modelo de apresentação · conteúdo a adicionar</p>
+              <dl><div><dt>Contexto & desafio</dt><dd>Apresente o produto, seu público e o problema que motivou o projeto.</dd></div>
+              <div><dt>Minha participação</dt><dd>Descreva seu papel, as responsabilidades, o time e o período de atuação.</dd></div>
+              <div><dt>Processo & decisões</dt><dd>Mostre as descobertas, as alternativas exploradas e o motivo das principais escolhas.</dd></div>
+              <div><dt>Solução</dt><dd>Adicione telas, fluxos ou um protótipo para apresentar a experiência construída.</dd></div>
+              <div><dt>Resultados & evidências</dt><dd>Inclua os impactos observados, comparações antes e depois e evidências de validação. Para métricas, informe o período e a fonte.</dd></div>
+              <div><dt>Aprendizados & próximos passos</dt><dd>Conte o que aprendeu, as limitações encontradas e o que pode evoluir.</dd></div></dl>
+              <div class="result-placeholder"><span>IMPACTO DO PROJETO</span><p>Resultados serão apresentados com a publicação do case.</p></div>
+            </div>
+          </details>
+        </article>
+        <!-- PROJETO 02: substitua a capa, o título, o resumo e os campos do estudo de caso quando o conteúdo estiver disponível. -->
+        <article class="project-card">
+          <div class="project-cover cover-prototype" aria-hidden="true"><span class="cover-number">02</span><div class="cover-composition"><span></span><span></span><span></span></div><span class="cover-caption">ESPAÇO PARA A CAPA DO PROJETO</span></div>
+          <div class="project-meta"><span>IA / PROTOTIPAÇÃO</span><span class="project-status">Em preparação</span></div>
+          <h3>Da hipótese ao protótipo</h3><p class="project-description">Um espaço para mostrar como uma ideia ganhou forma em um protótipo funcional com apoio de IA.</p>
+          <details class="project-case"><summary>Conheça a estrutura do case <span aria-hidden="true">+</span></summary>
+            <div class="case-content"><p class="case-note">Modelo de apresentação · conteúdo a adicionar</p>
+              <dl><div><dt>Contexto & desafio</dt><dd>Apresente o produto, seu público e o problema que motivou o projeto.</dd></div>
+              <div><dt>Minha participação</dt><dd>Descreva seu papel, as responsabilidades, o time e o período de atuação.</dd></div>
+              <div><dt>Processo & decisões</dt><dd>Mostre as descobertas, as alternativas exploradas e o motivo das principais escolhas.</dd></div>
+              <div><dt>Solução</dt><dd>Adicione telas, fluxos ou um protótipo para apresentar a experiência construída.</dd></div>
+              <div><dt>Resultados & evidências</dt><dd>Inclua os impactos observados, comparações antes e depois e evidências de validação. Para métricas, informe o período e a fonte.</dd></div>
+              <div><dt>Aprendizados & próximos passos</dt><dd>Conte o que aprendeu, as limitações encontradas e o que pode evoluir.</dd></div></dl>
+              <div class="result-placeholder"><span>IMPACTO DO PROJETO</span><p>Resultados serão apresentados com a publicação do case.</p></div>
+            </div>
+          </details>
+        </article>
+        <!-- PROJETO 03: substitua a capa, o título, o resumo e os campos do estudo de caso quando o conteúdo estiver disponível. -->
+        <article class="project-card">
+          <div class="project-cover cover-design" aria-hidden="true"><span class="cover-number">03</span><div class="cover-composition"><span></span><span></span><span></span></div><span class="cover-caption">ESPAÇO PARA A CAPA DO PROJETO</span></div>
+          <div class="project-meta"><span>DESIGN / ESTRATÉGIA</span><span class="project-status">Em preparação</span></div>
+          <h3>Design que conecta</h3><p class="project-description">Um espaço para apresentar a construção de uma solução visual conectada às necessidades do negócio.</p>
+          <details class="project-case"><summary>Conheça a estrutura do case <span aria-hidden="true">+</span></summary>
+            <div class="case-content"><p class="case-note">Modelo de apresentação · conteúdo a adicionar</p>
+              <dl><div><dt>Contexto & desafio</dt><dd>Apresente o produto, seu público e o problema que motivou o projeto.</dd></div>
+              <div><dt>Minha participação</dt><dd>Descreva seu papel, as responsabilidades, o time e o período de atuação.</dd></div>
+              <div><dt>Processo & decisões</dt><dd>Mostre as descobertas, as alternativas exploradas e o motivo das principais escolhas.</dd></div>
+              <div><dt>Solução</dt><dd>Adicione telas, fluxos ou um protótipo para apresentar a experiência construída.</dd></div>
+              <div><dt>Resultados & evidências</dt><dd>Inclua os impactos observados, comparações antes e depois e evidências de validação. Para métricas, informe o período e a fonte.</dd></div>
+              <div><dt>Aprendizados & próximos passos</dt><dd>Conte o que aprendeu, as limitações encontradas e o que pode evoluir.</dd></div></dl>
+              <div class="result-placeholder"><span>IMPACTO DO PROJETO</span><p>Resultados serão apresentados com a publicação do case.</p></div>
+            </div>
+          </details>
+        </article>
+      </div>
+      <p class="projects-note">Os espaços acima estão reservados para futuros estudos de caso. Projetos e resultados ainda não foram publicados.</p>
+    </section>
+    <section class="section wrap" id="atuacao" aria-labelledby="atuacao-title">
+      <div class="section-heading"><p class="eyebrow">01 / O QUE EU FAÇO</p><h2 id="atuacao-title">Do primeiro porquê<br>ao próximo <em>passo.</em></h2></div>
+      <div class="expertise-grid">
+        <article class="expertise"><div class="card-top"><span>01</span><span class="card-symbol" aria-hidden="true">◎</span></div><h3>Entender para<br>desenhar melhor.</h3><p>Discovery, jornadas e fluxos para conectar necessidades dos usuários aos objetivos de negócio.</p><div class="tags"><span>Discovery</span><span>UX Research</span><span>Jornadas & fluxos</span></div></article>
+        <article class="expertise"><div class="card-top"><span>02</span><span class="card-symbol" aria-hidden="true">⌘</span></div><h3>Dar forma<br>à experiência.</h3><p>UX/UI, prototipação e validação para transformar problemas em soluções digitais claras e funcionais.</p><div class="tags"><span>UX/UI</span><span>Prototipação</span><span>Validação</span></div></article>
+        <article class="expertise"><div class="card-top"><span>03</span><span class="card-symbol" aria-hidden="true">✳</span></div><h3>Construir para<br>aprender rápido.</h3><p>IA generativa e vibe coding para explorar hipóteses, criar protótipos funcionais e experimentar novas soluções.</p><div class="tags"><span>GenAI</span><span>Vibe coding</span><span>AI-first</span></div></article>
+      </div>
+    </section>
+    <section class="about section" id="sobre" aria-labelledby="sobre-title"><div class="wrap about-grid"><div><p class="eyebrow">02 / UM POUCO SOBRE MIM</p><div class="monogram" aria-hidden="true">m<span>v.</span><div class="monogram-caption">DESIGNER POR TRAJETÓRIA.<br>BUILDER POR CURIOSIDADE.</div></div></div><div class="about-copy"><h2 id="sobre-title">Design como base.<br>Curiosidade como<br><em>combustível.</em></h2><p>Sou Marco Vianna, UX Designer e Product Builder. Minha trajetória passa pela direção de arte, liderança criativa e construção de produtos digitais — uma combinação que me ajuda a olhar para o todo sem perder os detalhes.</p><p>Atualmente, atuo na Extreme Digital Solutions (EDS), colaborando com diferentes áreas no discovery, na prototipação e na evolução de soluções digitais. Integro IA generativa ao processo para encurtar a distância entre uma ideia e uma experiência testável.</p><p>Também curso Ciência da Computação no IBMR, ampliando minha conexão entre design e tecnologia.</p><a class="text-link" href="assets/Marco_Vianna_Curriculo_Profissional.pdf" download>Baixar currículo completo <span aria-hidden="true">↗</span></a></div></div></section>
+    <section class="section wrap process" aria-labelledby="process-title"><div class="section-heading"><p class="eyebrow">03 / COMO EU PENSO</p><h2 id="process-title">Menos distância entre<br>a hipótese e a <em>experiência.</em></h2></div><div class="process-grid"><article><span>01 — DESCOBRIR</span><h3>Começar pela pergunta.</h3><p>Entender o contexto, os desafios de negócio e as necessidades de quem vai usar.</p></article><article><span>02 — EXPERIMENTAR</span><h3>Tornar a ideia tangível.</h3><p>Explorar jornadas, desenhar interfaces e criar protótipos funcionais com apoio de IA.</p></article><article><span>03 — EVOLUIR</span><h3>Aprender e refinar.</h3><p>Validar hipóteses e evoluir a solução de forma incremental, junto com o time.</p></article></div></section>
+    <section class="section wrap" id="trajetoria" aria-labelledby="trajetoria-title"><div class="section-heading"><p class="eyebrow">04 / DE ONDE EU VENHO</p><h2 id="trajetoria-title">Uma trajetória de<br><em>conexões.</em></h2></div><div class="timeline"><article><span class="period">2020 — ATUAL</span><div><h3>UX Designer</h3><p>Extreme Digital Solutions · EDS</p><p class="job-description">Discovery, jornadas, prototipação, validação e evolução de soluções digitais. Experimentação com IA generativa e vibe coding.</p></div><span class="job-location">Rio de Janeiro</span></article><article><span class="period">2019 — 2024</span><div><h3>Designer</h3><p>Extreme Digital Solutions · EDS</p></div><span class="job-location">Rio de Janeiro</span></article><article><span class="period">2015 — 2018</span><div><h3>Design UX/UI</h3><p>Assembleia Legislativa do Rio de Janeiro · Alerj</p><p class="job-description">Criação de sites e sistemas para o setor de informática da instituição.</p></div><span class="job-location">Rio de Janeiro</span></article></div><details class="earlier"><summary>Antes disso: criação, direção de arte e comunicação <span aria-hidden="true">+</span></summary><div class="earlier-grid"><p><strong>Pulso Comunicação</strong>Diretor de Criação · 2012–2014</p><p><strong>Prefeitura de Vila Velha</strong>Coord. de Publicidade e Marketing · 2010–2012</p><p><strong>Anima Comunicação Integrada</strong>Diretor de Criação · 2008–2010</p><p><strong>Bistro Publicidade e Marketing</strong>Diretor de Arte · 2007–2008</p><p><strong>Set Comunicação</strong>Diretor de Arte · 2005–2007</p><p><strong>Prefeitura de Vila Velha</strong>Diretor de Arte / Fotógrafo · 2003–2005</p><p><strong>Touchè Ideia e Fatos</strong>Diretor de Arte · 2001–2003</p><p><strong>Secom Comunicação</strong>Arte Finalista · 1998–2001</p></div></details></section>
+    <section class="contact" id="contato" aria-labelledby="contact-title"><div class="wrap"><p class="eyebrow">05 / A PRÓXIMA CONEXÃO</p><div class="contact-heading"><h2 id="contact-title">Boas ideias começam<br>com uma <em>conversa.</em></h2><a class="round-link" href="mailto:mac.vianna@gmail.com" aria-label="Enviar e-mail para Marco"><span aria-hidden="true">↗</span></a></div><div class="contact-links"><a href="mailto:mac.vianna@gmail.com">mac.vianna@gmail.com <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/marco-vianna-6193a729/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a><button id="copy-email" type="button">Copiar e-mail <span aria-hidden="true">⧉</span></button></div><p id="copy-status" class="copy-status" role="status"></p></div></section>
+  </main>
+  <footer class="wrap footer"><a class="wordmark" href="#inicio">marco vianna<span>®</span></a><p>Design, tecnologia e um olhar curioso.</p><span>© <span id="year">2026</span> Marco Vianna</span></footer>
 </body>
 </html>
